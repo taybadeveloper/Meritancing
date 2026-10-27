@@ -37,10 +37,6 @@ export default function ContactPage() {
               <h2>How to Reach Us</h2>
               <ul className="pain-list">
                 <li>
-                  <strong>Address:</strong> 8 Jurong Town Hall Road, Singapore
-                  609434
-                </li>
-                <li>
                   <strong>Phone:</strong> +65 6000 0000
                 </li>
                 <li>
@@ -81,9 +77,6 @@ export default function ContactPage() {
             <div className="panel-card">
               <h4>Our Location</h4>
               <div className="map-placeholder">Map Placeholder</div>
-              <p style={{ marginTop: "var(--space-4)" }}>
-                8 Jurong Town Hall Road, Singapore 609434
-              </p>
             </div>
           </div>
         </div>

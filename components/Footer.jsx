@@ -12,7 +12,6 @@ export default function Footer() {
               built for clarity rather than speculation.
             </p>
             <address>
-              8 Jurong Town Hall Road, Singapore 609434
               <a href="tel:+6560000000">+65 6000 0000</a>
               <a href="mailto:support@meritancing.com">support@meritancing.com</a>
             </address>
