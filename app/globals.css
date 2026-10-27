@@ -171,16 +171,24 @@ img{max-width:100%; display:block;}
   .site-nav{
     display:none;
     flex-direction:column;
-    align-items:flex-start;
+    align-items:stretch;
     position:absolute;
     top:100%;
     left:0;
     right:0;
     background:#fff;
     border-bottom:1px solid var(--border);
-    padding:var(--space-4) var(--space-5);
-    gap:var(--space-4);
+    padding:var(--space-3) var(--space-5) var(--space-5);
+    gap:var(--space-1);
+    box-shadow:0 14px 28px rgba(17,24,39,0.16);
   }
+  .site-nav a{
+    display:block;
+    padding:var(--space-3) var(--space-2);
+    font-size:16px;
+    border-radius:var(--radius-sm);
+  }
+  .site-nav a:hover{ background:rgba(6,95,70,0.05); }
   .site-nav.open{ display:flex; }
 }
 
