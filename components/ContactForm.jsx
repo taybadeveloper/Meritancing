@@ -14,7 +14,7 @@ export default function ContactForm() {
     if (!phoneRef.current || itiRef.current) return;
 
     itiRef.current = intlTelInput(phoneRef.current, {
-      initialCountry: "sg",
+      initialCountry: "pk",
       separateDialCode: true,
       utilsScript:
         "https://cdn.jsdelivr.net/npm/intl-tel-input@29/build/js/utils.js",
