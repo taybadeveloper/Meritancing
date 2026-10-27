@@ -42,10 +42,6 @@ export default function ContactPage() {
                     support@meritancing.com
                   </a>
                 </li>
-                <li>
-                  <strong>Hours:</strong> Monday to Friday, 9:00 AM – 6:00 PM
-                  (SGT)
-                </li>
               </ul>
               <p>
                 For general enquiries, platform questions, or partnership
