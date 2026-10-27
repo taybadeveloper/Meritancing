@@ -1,19 +1,56 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import intlTelInput from "intl-tel-input";
+import "intl-tel-input/dist/css/intlTelInput.css";
 
 export default function ContactForm() {
   const [status, setStatus] = useState({ type: null, message: "" });
   const [loading, setLoading] = useState(false);
+  const phoneRef = useRef(null);
+  const itiRef = useRef(null);
+
+  useEffect(() => {
+    if (!phoneRef.current || itiRef.current) return;
+
+    itiRef.current = intlTelInput(phoneRef.current, {
+      initialCountry: "sg",
+      separateDialCode: true,
+      utilsScript:
+        "https://cdn.jsdelivr.net/npm/intl-tel-input@29/build/js/utils.js",
+    });
+
+    return () => {
+      if (itiRef.current) {
+        itiRef.current.destroy();
+        itiRef.current = null;
+      }
+    };
+  }, []);
 
   async function handleSubmit(event) {
     event.preventDefault();
+    const form = event.currentTarget;
+    const fd = new FormData(form);
+    const phone = itiRef.current?.getNumber() || "";
+
+    if (!phone) {
+      setStatus({
+        type: "error",
+        message: "Please enter a valid phone number.",
+      });
+      return;
+    }
+
     setLoading(true);
     setStatus({ type: null, message: "" });
 
-    const data = Object.fromEntries(
-      new FormData(event.currentTarget).entries()
-    );
+    const data = {
+      firstName: fd.get("firstName"),
+      lastName: fd.get("lastName"),
+      email: fd.get("email"),
+      phone,
+    };
 
     try {
       const res = await fetch("/api/contact", {
@@ -29,7 +66,7 @@ export default function ContactForm() {
           message:
             "Thank you! Your message has been sent. Our team will contact you soon.",
         });
-        event.currentTarget.reset();
+        form.reset();
       } else {
         setStatus({
           type: "error",
@@ -96,9 +133,9 @@ export default function ContactForm() {
           className="form-input"
           type="tel"
           id="phone"
-          name="phone"
-          placeholder="+65 6000 0000"
+          placeholder="8123 4567"
           required
+          ref={phoneRef}
         />
       </div>
       <button type="submit" className="btn btn-primary" disabled={loading}>

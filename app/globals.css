@@ -513,6 +513,23 @@ details p{
   background:#fff;
 }
 textarea.form-input{ resize:vertical; }
+/* International phone input (intl-tel-input) */
+.iti{
+  display:block;
+  width:100%;
+}
+.iti .form-input{
+  width:100%;
+  padding-left:84px;
+}
+.iti__country-list{
+  z-index:60;
+  border:1px solid var(--border);
+  border-radius:var(--radius-sm);
+}
+.iti__flag-container{
+  padding-top:12px;
+}
 .form-status{
   margin:var(--space-4) 0 0;
   font-size:14.5px;
