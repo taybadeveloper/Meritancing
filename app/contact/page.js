@@ -45,8 +45,8 @@ export default function ContactPage() {
                 </li>
                 <li>
                   <strong>Email:</strong>{" "}
-                  <a href="mailto:contact@meritancing.net">
-                    contact@meritancing.net
+                  <a href="mailto:support@meritancing.net">
+                    support@meritancing.net
                   </a>
                 </li>
                 <li>
