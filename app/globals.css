@@ -265,6 +265,10 @@ section[id]{ scroll-margin-top:72px; }
 .section-alt{
   background:var(--secondary);
 }
+/* Legal pages title block */
+.page-head{
+  padding:var(--space-6) 0 var(--space-5);
+}
 .section-head{
   max-width:680px;
   margin:0 0 var(--space-7);

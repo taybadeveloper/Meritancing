@@ -13,7 +13,7 @@ export const metadata = {
 export default function PrivacyPage() {
   return (
     <main>
-      <section>
+      <section className="page-head">
         <div className="container">
           <SectionHead
             eyebrow="Legal"
