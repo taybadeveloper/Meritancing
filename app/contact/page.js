@@ -18,6 +18,7 @@ export default function ContactPage() {
           <SectionHead
             eyebrow="Get in Touch"
             title="Contact Meritancing"
+            as="h1"
             description="Have a question about how Meritancing approaches data analysis and risk management for your family's wealth? Send us a message and our team will follow up."
           />
 
