@@ -108,8 +108,8 @@ export default function FeaturesPage() {
         <div className="container split">
           <div className="split-media">
             <img
-              src="/assets/about.jpg"
-              alt="Meritancing data analysis interface reviewed alongside family wealth records"
+              src="/assets/dashboard.jpg"
+              alt="Analytics dashboard consolidating data into a single overview"
               width="800"
               height="600"
               loading="lazy"
