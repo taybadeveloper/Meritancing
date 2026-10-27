@@ -513,6 +513,12 @@ details p{
   background:#fff;
 }
 textarea.form-input{ resize:vertical; }
+.form-status{
+  margin:var(--space-4) 0 0;
+  font-size:14.5px;
+}
+.form-status.success{ color:var(--primary); }
+.form-status.error{ color:#B91C1C; }
 
 .map-placeholder{
   background:var(--border);

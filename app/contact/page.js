@@ -69,7 +69,7 @@ export default function ContactPage() {
           <SectionHead
             eyebrow="Send a Message"
             title="Tell Us What You Need"
-            description="Fill out the form below and we'll get back to you as soon as possible. This form is a placeholder and does not currently submit data."
+            description="Fill out the form below and we'll get back to you as soon as possible."
           />
 
           <div className="panel-inner">
