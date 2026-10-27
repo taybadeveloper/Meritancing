@@ -95,8 +95,8 @@ export default function AdvantagesPage() {
           <div className="split media-right">
             <div className="split-media">
               <img
-                src="/assets/about.jpg"
-                alt="Meritancing team reviewing family wealth analytics on screen"
+                src="/assets/analysis.jpg"
+                alt="Team analysing data on laptops for evidence-based decisions"
                 width="900"
                 height="700"
                 loading="lazy"
