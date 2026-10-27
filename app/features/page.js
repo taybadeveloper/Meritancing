@@ -95,7 +95,6 @@ export default function FeaturesPage() {
         title="Features built for clarity, not speculation"
         description="Meritancing turns scattered financial data into a structured view of risk, exposure, and allocation — so family wealth decisions rest on analysis, not guesswork."
         alt="Meritancing dashboard showing portfolio risk analysis and data visualizations"
-        container={false}
       >
         <Link href="#cta-section" className="btn btn-primary">
           Start Analysis

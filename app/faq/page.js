@@ -69,7 +69,6 @@ export default function FaqPage() {
     <main>
       <Hero
         small
-        container={false}
         wide
         title="Frequently Asked Questions"
         description="Answers to common questions about how Meritancing supports data-driven analysis and risk management for family wealth."
