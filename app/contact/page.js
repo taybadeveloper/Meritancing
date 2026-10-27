@@ -37,9 +37,6 @@ export default function ContactPage() {
               <h2>How to Reach Us</h2>
               <ul className="pain-list">
                 <li>
-                  <strong>Phone:</strong> +65 6000 0000
-                </li>
-                <li>
                   <strong>Email:</strong>{" "}
                   <a href="mailto:support@meritancing.com">
                     support@meritancing.com
