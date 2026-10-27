@@ -19,7 +19,8 @@ export default function AdvantagesPage() {
         eyebrow="Advantages"
         title="Why families rely on Meritancing for data-driven decisions"
         description="Meritancing brings order, discipline, and clarity to wealth oversight — replacing guesswork with consistent, evidence-based analysis."
-        alt="Meritancing dashboard overview showing portfolio risk analysis"
+        image="/assets/hero-advantages.jpg"
+        alt="Two people shaking hands in a professional setting"
       >
         <Link href="#cta-section" className="btn btn-primary">
           Start Analysis

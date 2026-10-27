@@ -93,7 +93,8 @@ export default function FeaturesPage() {
       <Hero
         title="Tools built for clarity, not guesswork"
         description="Meritancing converts scattered financial data into an organised view of risk, exposure, and allocation — so family wealth decisions are grounded in analysis, not instinct."
-        alt="Meritancing dashboard showing portfolio risk analysis and data visualizations"
+        image="/assets/hero-features.jpg"
+        alt="Analytics dashboard on a laptop showing growth charts"
       >
         <Link href="#cta-section" className="btn btn-primary">
           Start Analysis

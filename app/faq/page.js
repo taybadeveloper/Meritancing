@@ -72,7 +72,8 @@ export default function FaqPage() {
         wide
         title="Frequently Asked Questions"
         description="Straight answers to common questions about how Meritancing supports data-driven analysis and risk management for family wealth."
-        alt="Meritancing dashboard overview used for family wealth analysis"
+        image="/assets/hero-faq.jpg"
+        alt="Person working on a laptop for help and support"
       />
 
       <section>

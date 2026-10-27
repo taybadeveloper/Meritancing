@@ -6,6 +6,7 @@ export default function Hero({
   small = false,
   container = true,
   wide = false,
+  image = "/assets/hero.jpg",
   alt = "Meritancing data intelligence platform overview for family wealth planning",
 }) {
   const content = (
@@ -24,7 +25,7 @@ export default function Hero({
     <section className={`hero${small ? " hero-sm" : ""}`}>
       <div className="hero-media">
         <img
-          src="/assets/hero.jpg"
+          src={image}
           alt={alt}
           width="1600"
           height="900"
