@@ -6,6 +6,9 @@ export const metadata = {
   title: "Meritancing — Answers About the AI-Powered Platform",
   description:
     "Meritancing explains how its analytical platform supports data-driven risk management and family wealth decisions. Browse common questions or reach out for tailored guidance.",
+  alternates: {
+    canonical: "/faq",
+  },
 };
 
 const faqs = [

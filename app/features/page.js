@@ -8,6 +8,9 @@ export const metadata = {
   title: "Meritancing — AI Platform for Structured Portfolio Analysis",
   description:
     "Meritancing is the AI platform that consolidates fragmented holdings into a single risk-aware view, covering exposure, scoring, and scenario review. Discover a disciplined process from raw data to documented decisions.",
+  alternates: {
+    canonical: "/features",
+  },
 };
 
 const workflowTabs = [

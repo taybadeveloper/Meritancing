@@ -4,6 +4,12 @@ import SectionHead from "@/components/SectionHead";
 import CtaBanner from "@/components/CtaBanner";
 import Tabs from "@/components/Tabs";
 
+export const metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
+
 const lifeStageTabs = [
   {
     label: "Education Fund Planning",

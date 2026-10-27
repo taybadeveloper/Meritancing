@@ -5,6 +5,9 @@ export const metadata = {
   title: "Meritancing — Contact Our AI Platform Team",
   description:
     "Meritancing offers direct support for questions about data analysis, risk management, and platform use. Reach the team by form, phone, or email during business hours.",
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 export default function ContactPage() {

@@ -16,6 +16,7 @@ const publicSans = Public_Sans({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://meritancing.net"),
   title: "Meritancing — Adaptive AI Platform for Family Wealth",
   description:
     "Discover with Meritancing an AI platform that learns your risk tolerance and adjusts your portfolio automatically. Keep your family's long-term financial plans on course as conditions change.",

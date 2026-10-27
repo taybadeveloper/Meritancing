@@ -7,6 +7,9 @@ export const metadata = {
   title: "Meritancing — AI Platform Advantages for Smarter Wealth Oversight",
   description:
     "Meritancing: structured AI-driven analysis platform for family wealth management. Optimise your financial oversight with consistent, evidence-based portfolio monitoring.",
+  alternates: {
+    canonical: "/advantages",
+  },
 };
 
 export default function AdvantagesPage() {

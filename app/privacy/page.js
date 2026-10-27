@@ -5,6 +5,9 @@ export const metadata = {
   title: "Meritancing — Privacy Policy for Our AI Platform",
   description:
     "Discover with Meritancing how your personal data is collected, used, and protected across our AI platform. Read this policy to understand your rights and our data practices.",
+  alternates: {
+    canonical: "/privacy",
+  },
 };
 
 export default function PrivacyPage() {
