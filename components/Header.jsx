@@ -29,7 +29,7 @@ export default function Header() {
         </Link>
         <button
           type="button"
-          className="nav-toggle-label"
+          className={`nav-toggle-label${open ? " open" : ""}`}
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           onClick={() => setOpen(!open)}
