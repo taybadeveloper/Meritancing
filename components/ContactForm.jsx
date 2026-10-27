@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import intlTelInput from "intl-tel-input";
+import intlTelInput from "intl-tel-input/intlTelInputWithUtils";
 import "intl-tel-input/dist/css/intlTelInput.css";
 
 export default function ContactForm() {
@@ -16,8 +16,7 @@ export default function ContactForm() {
     itiRef.current = intlTelInput(phoneRef.current, {
       initialCountry: "pk",
       separateDialCode: true,
-      utilsScript:
-        "https://cdn.jsdelivr.net/npm/intl-tel-input@29/build/js/utils.js",
+      placeholderNumberPolicy: "AGGRESSIVE",
     });
 
     return () => {
@@ -133,7 +132,6 @@ export default function ContactForm() {
           className="form-input"
           type="tel"
           id="phone"
-          placeholder="8123 4567"
           required
           ref={phoneRef}
         />
