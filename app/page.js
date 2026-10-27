@@ -101,8 +101,8 @@ export default function Home() {
           <div className="split">
             <div className="split-media">
               <img
-                src="/assets/about.jpg"
-                alt="Meritancing data analysis dashboard representing market monitoring for families"
+                src="/assets/markets.jpg"
+                alt="Stock market chart showing shifting prices and volatility"
                 width="960"
                 height="720"
                 loading="lazy"
