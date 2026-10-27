@@ -223,6 +223,7 @@ img{max-width:100%; display:block;}
   max-width:840px;
   padding:var(--space-4) var(--space-5);
   color:#fff;
+  text-align:center;
 }
 .hero-content h1{
   color:#fff;
@@ -241,6 +242,7 @@ img{max-width:100%; display:block;}
   display:flex;
   gap:var(--space-4);
   flex-wrap:wrap;
+  justify-content:center;
   margin-top:var(--space-6);
 }
 .hero .btn-secondary{
