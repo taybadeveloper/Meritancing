@@ -207,6 +207,7 @@ export default function TermsPage() {
           <SectionHead
             eyebrow="Legal"
             title="Terms and Conditions"
+            as="h1"
             description='These Terms and Conditions ("Terms") govern your access to and use of the Meritancing website and services. By accessing or using Meritancing, you agree to be bound by these Terms. If you do not agree, please do not use our services.'
           />
           <div className="legal-body">

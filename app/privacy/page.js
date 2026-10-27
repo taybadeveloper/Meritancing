@@ -18,6 +18,7 @@ export default function PrivacyPage() {
           <SectionHead
             eyebrow="Legal"
             title="Privacy Policy"
+            as="h1"
             description="This Privacy Policy explains how Meritancing collects, uses, and safeguards information when you visit our website or use our services. This is a general template provided for informational purposes and should be reviewed and adapted to reflect your actual data practices and applicable law before publication."
           />
         </div>

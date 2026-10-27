@@ -273,6 +273,10 @@ section[id]{ scroll-margin-top:72px; }
   max-width:680px;
   margin:0 0 var(--space-7);
 }
+.section-head h1{ font-size:32px; }
+@media (min-width:768px){
+  .section-head h1{ font-size:40px; }
+}
 .eyebrow{
   text-transform:uppercase;
   letter-spacing:0.08em;
