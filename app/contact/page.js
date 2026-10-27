@@ -25,8 +25,8 @@ export default function ContactPage() {
           <div className="split media-right">
             <div className="split-media">
               <img
-                src="/assets/about.jpg"
-                alt="Meritancing office workspace where client inquiries are reviewed"
+                src="/assets/support.jpg"
+                alt="Customer support professional ready to help with enquiries"
                 width="640"
                 height="480"
                 loading="lazy"
