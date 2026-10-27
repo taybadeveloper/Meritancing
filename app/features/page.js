@@ -7,7 +7,7 @@ import Tabs from "@/components/Tabs";
 export const metadata = {
   title: "Meritancing — AI Platform for Structured Portfolio Analysis",
   description:
-    "Meritancing is the AI platform that consolidates fragmented holdings into a single risk-aware view, covering exposure, scoring, and scenario review. Discover a disciplined process from raw data to documented decisions.",
+    "Meritancing unifies scattered holdings into one risk-aware picture — exposure mapping, scoring, and scenario review in a single disciplined workflow.",
   alternates: {
     canonical: "/features",
   },
@@ -21,18 +21,18 @@ const workflowTabs = [
         <div className="panel-card">
           <h4>Unified Data Intake + Exposure Mapping</h4>
           <p>
-            Holdings from multiple sources are aligned into a single dataset,
-            then mapped by asset class, geography, and counterparty. This stage
-            establishes the foundation that every later analysis depends on —
-            without it, risk figures only reflect part of the picture.
+            Holdings from multiple sources are aligned into one dataset, then
+            mapped by asset class, geography, and counterparty. This stage lays
+            the foundation every later analysis depends on — without it, risk
+            figures only tell part of the story.
           </p>
         </div>
         <div className="panel-card">
           <h4>What this resolves</h4>
           <p>
-            Manual reconciliation errors, duplicate reporting across advisors,
-            and blind spots created when accounts are reviewed in isolation
-            rather than as a whole.
+            Manual reconciliation mistakes, duplicated reporting across
+            advisers, and blind spots that appear when accounts are viewed in
+            isolation instead of as a whole.
           </p>
         </div>
       </div>
@@ -45,18 +45,18 @@ const workflowTabs = [
         <div className="panel-card">
           <h4>Risk Scoring + Scenario Review</h4>
           <p>
-            Once exposure is mapped, each position is scored for volatility and
-            liquidity, then tested against defined scenarios. The result is a
-            ranked view of where risk concentrates and how the portfolio might
-            respond to specific conditions.
+            Once exposure is mapped, every position is scored for volatility and
+            liquidity, then stress-tested against defined scenarios. The result
+            is a ranked view of where risk concentrates and how the portfolio
+            might react in specific conditions.
           </p>
         </div>
         <div className="panel-card">
           <h4>What this resolves</h4>
           <p>
-            Decisions made on return expectations alone, without a corresponding
-            view of downside exposure or how correlated holdings might move
-            together under stress.
+            Decisions made on return expectations alone — with no matching view
+            of downside, or of how correlated holdings might move together under
+            stress.
           </p>
         </div>
       </div>
@@ -69,18 +69,17 @@ const workflowTabs = [
         <div className="panel-card">
           <h4>Ongoing Monitoring + Decision Records</h4>
           <p>
-            Allocations are tracked against targets on a continuing basis, with
-            deviations flagged early. Each adjustment or review is logged,
-            building a record that supports accountability across advisors and
-            family stakeholders.
+            Allocations are checked against targets on a continuing basis, with
+            deviations flagged early. Every adjustment and review is logged,
+            building a record that keeps advisers and family stakeholders
+            accountable.
           </p>
         </div>
         <div className="panel-card">
           <h4>What this resolves</h4>
           <p>
-            Drift that goes unnoticed between periodic reviews, and the lack of
-            a clear rationale trail when decisions are later questioned or
-            revisited.
+            Drift that goes unnoticed between periodic reviews, and the missing
+            rationale trail when past decisions are questioned or revisited.
           </p>
         </div>
       </div>
@@ -92,8 +91,8 @@ export default function FeaturesPage() {
   return (
     <main>
       <Hero
-        title="Features built for clarity, not speculation"
-        description="Meritancing turns scattered financial data into a structured view of risk, exposure, and allocation — so family wealth decisions rest on analysis, not guesswork."
+        title="Tools built for clarity, not guesswork"
+        description="Meritancing converts scattered financial data into an organised view of risk, exposure, and allocation — so family wealth decisions are grounded in analysis, not instinct."
         alt="Meritancing dashboard showing portfolio risk analysis and data visualizations"
       >
         <Link href="#cta-section" className="btn btn-primary">
@@ -117,19 +116,18 @@ export default function FeaturesPage() {
             />
           </div>
           <div>
-            <span className="eyebrow">What Meritancing Does</span>
-            <h2>One system, a complete picture</h2>
+            <span className="eyebrow">What the Platform Does</span>
+            <h2>One system, one full picture</h2>
             <p>
-              Family wealth is usually spread across accounts, advisors, and
-              asset classes that rarely talk to each other. Meritancing
-              consolidates that information into a single analytical layer,
-              highlighting concentration, correlation, and drift before they
-              become costly surprises.
+              Family wealth usually sits across accounts, advisers, and asset
+              classes that rarely connect. Meritancing pulls all of it into a
+              single analytical layer, exposing concentration, correlation, and
+              drift before they turn into expensive surprises.
             </p>
             <ul className="pain-list">
-              <li>Fragmented holdings reviewed as one connected portfolio</li>
-              <li>Risk signals surfaced automatically, not buried in reports</li>
-              <li>Clear documentation trail for every allocation decision</li>
+              <li>Scattered holdings reviewed as one connected portfolio</li>
+              <li>Risk signals raised automatically — never buried in reports</li>
+              <li>A clear paper trail behind every allocation decision</li>
             </ul>
             <Link href="/contact" className="btn btn-secondary btn-sm">
               Talk to Us
@@ -141,63 +139,62 @@ export default function FeaturesPage() {
       <section className="section-alt" id="feature-detail">
         <div className="container">
           <SectionHead
-            eyebrow="Core Capabilities"
-            title="Six features, one disciplined process"
-            description="Each capability below addresses a specific point where family offices and private investors typically lose visibility — from initial data intake through to ongoing monitoring."
+            eyebrow="Six Core Capabilities"
+            title="Six tools, one disciplined process"
+            description="Each capability targets a specific place where family offices and private investors tend to lose sight of their portfolios — from first data intake through to continuous monitoring."
           />
           <div className="feature-grid">
             <div className="feature-panel">
               <div className="feature-number">01</div>
               <h3>Unified Data Intake</h3>
               <p>
-                Consolidate statements, custodial feeds, and manual records into
-                one structured dataset, removing the need to reconcile
-                spreadsheets by hand.
+                Bring statements, custodian feeds, and manual records together
+                into one structured dataset — no more hand-reconciling
+                spreadsheets.
               </p>
             </div>
             <div className="feature-panel">
               <div className="feature-number">02</div>
               <h3>Exposure Mapping</h3>
               <p>
-                See how holdings connect across asset classes, currencies, and
-                counterparties, so hidden concentration is identified rather
-                than assumed away.
+                See how positions link across asset classes, currencies, and
+                counterparties, so hidden concentration is found — not assumed
+                away.
               </p>
             </div>
             <div className="feature-panel">
               <div className="feature-number">03</div>
               <h3>Risk Scoring</h3>
               <p>
-                Quantify volatility, drawdown sensitivity, and liquidity
-                constraints for each position, giving every holding a comparable
-                risk profile.
+                Measure volatility, drawdown sensitivity, and liquidity limits
+                for every position, giving each holding a comparable risk
+                profile.
               </p>
             </div>
             <div className="feature-panel">
               <div className="feature-number">04</div>
               <h3>Scenario Review</h3>
               <p>
-                Model how a portfolio behaves under defined stress conditions,
-                helping decisions account for downside before capital is
-                committed.
+                Test how a portfolio behaves under defined stress conditions, so
+                downside is understood before capital is committed.
               </p>
             </div>
             <div className="feature-panel">
               <div className="feature-number">05</div>
               <h3>Ongoing Monitoring</h3>
               <p>
-                Track drift from target allocation over time, with flagged
-                deviations rather than periodic reviews that miss gradual
-                change.
+                Follow drift from the target allocation over time, with
+                deviations flagged — instead of periodic reviews that let
+                gradual change slip by.
               </p>
             </div>
             <div className="feature-panel">
               <div className="feature-number">06</div>
               <h3>Decision Records</h3>
               <p>
-                Every analysis produces a documented rationale, creating an
-                audit trail that supports governance across generations of a
-                family's holdings.
+                Every analysis leaves a documented rationale, building an audit
+                trail that supports governance across generations of a family's
+                wealth.
               </p>
             </div>
           </div>
@@ -207,9 +204,9 @@ export default function FeaturesPage() {
       <section>
         <div className="container">
           <SectionHead
-            eyebrow="In Practice"
-            title="How the features fit together"
-            description="These capabilities are not separate tools — they operate as stages of a single workflow, moving from raw data to a documented, risk-aware position."
+            eyebrow="How They Work Together"
+            title="How the pieces fit together"
+            description="These capabilities aren't separate tools — they run as stages of one workflow, moving from raw data to a documented, risk-aware position."
           />
           <Tabs tabs={workflowTabs} />
         </div>
@@ -219,8 +216,8 @@ export default function FeaturesPage() {
         <div className="container">
           <SectionHead
             eyebrow="Getting Started"
-            title="From raw data to a documented position"
-            description="Implementing Meritancing follows a consistent sequence, regardless of how the portfolio is currently organized."
+            title="From scattered records to a documented position"
+            description="Implementing Meritancing follows the same sequence regardless of how the portfolio is currently organised."
           />
           <div className="steps">
             <div className="step">
@@ -228,7 +225,8 @@ export default function FeaturesPage() {
               <h3>Connect Holdings</h3>
               <p>
                 Import statements and records into the unified data layer,
-                establishing one consistent source for all later analysis.
+                establishing one consistent source for every analysis that
+                follows.
               </p>
             </div>
             <div className="step">
@@ -236,7 +234,7 @@ export default function FeaturesPage() {
               <h3>Review Exposure & Risk</h3>
               <p>
                 Examine the mapped exposures and risk scores, then run scenarios
-                against the positions that carry the most concentration.
+                against the positions carrying the most concentration.
               </p>
             </div>
             <div className="step">
@@ -254,7 +252,7 @@ export default function FeaturesPage() {
       <section id="cta-section">
         <div className="container">
           <CtaBanner
-            title="See your portfolio through a clearer lens"
+            title="See your portfolio through a sharper lens"
             description="Start an analysis with Meritancing and move from scattered statements to a structured, risk-aware view of family wealth."
             cta="Start Analysis"
             href="/contact"

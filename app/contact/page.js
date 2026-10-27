@@ -4,7 +4,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata = {
   title: "Meritancing — Contact Our AI Platform Team",
   description:
-    "Meritancing offers direct support for questions about data analysis, risk management, and platform use. Reach the team by form, phone, or email during business hours.",
+    "Meritancing offers direct support for questions about data analysis, risk management, and platform use. Reach the team by form or email.",
   alternates: {
     canonical: "/contact",
   },
@@ -19,7 +19,7 @@ export default function ContactPage() {
             eyebrow="Get in Touch"
             title="Contact Meritancing"
             as="h1"
-            description="Have a question about how Meritancing approaches data analysis and risk management for your family's wealth? Send us a message and our team will follow up."
+            description="Questions about how Meritancing approaches data analysis and risk management for your family's wealth? Send us a message and our team will get back to you."
           />
 
           <div className="split media-right">
@@ -44,9 +44,9 @@ export default function ContactPage() {
                 </li>
               </ul>
               <p>
-                For general enquiries, platform questions, or partnership
-                discussions, the form below is the quickest way to reach the
-                right person on our team.
+                For general enquiries, platform questions, or partnership talks,
+                the form below is the fastest route to the right person on our
+                team.
               </p>
             </div>
           </div>
@@ -56,20 +56,15 @@ export default function ContactPage() {
       <section className="section-alt">
         <div className="container">
           <SectionHead
-            eyebrow="Send a Message"
-            title="Tell Us What You Need"
-            description="Fill out the form below and we'll get back to you as soon as possible."
+            eyebrow="Send Us a Message"
+            title="Tell Us How We Can Help"
+            description="Fill in the form and we'll respond as soon as we can."
           />
 
           <div className="panel-inner">
             <div className="panel-card">
               <h4>Contact Form</h4>
               <ContactForm />
-            </div>
-
-            <div className="panel-card">
-              <h4>Our Location</h4>
-              <div className="map-placeholder">Map Placeholder</div>
             </div>
           </div>
         </div>

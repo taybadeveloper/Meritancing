@@ -19,7 +19,7 @@ export const metadata = {
   metadataBase: new URL("https://meritancing.com"),
   title: "Meritancing — Adaptive AI Platform for Family Wealth",
   description:
-    "Discover with Meritancing an AI platform that learns your risk tolerance and adjusts your portfolio automatically. Keep your family's long-term financial plans on course as conditions change.",
+    "Meritancing is an AI platform that learns your family's risk tolerance and keeps your portfolio on course automatically as markets change.",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },

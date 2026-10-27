@@ -8,8 +8,8 @@ export default function Footer() {
           <div>
             <div className="footer-brand">Meritancing</div>
             <p>
-              AI-driven data analysis and risk management for family wealth,
-              built for clarity rather than speculation.
+              AI-powered data analysis and risk management for family wealth —
+              designed for clarity, not guesswork.
             </p>
             <address>
               <a href="mailto:support@meritancing.com">support@meritancing.com</a>

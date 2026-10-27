@@ -18,18 +18,16 @@ const lifeStageTabs = [
         <div>
           <h3>Education fund planning</h3>
           <p>
-            School and university costs are fixed obligations arriving on a
-            known timeline. The platform prioritises stability and steady
-            growth over this period, reducing exposure to positions that could
-            put a near-term fund at risk.
+            School and university fees are fixed commitments with known due
+            dates. During this window the platform favours stability and steady
+            growth, reducing positions that could put near-term funds at risk.
           </p>
         </div>
         <div className="panel-card">
           <h4>Measured outcome</h4>
           <p>
-            A funding trajectory designed to stay on schedule, reviewed
-            continuously against the target date rather than left to a single
-            annual check-in.
+            A funding plan built to stay on schedule — monitored continuously
+            against the target date instead of waiting for one yearly review.
           </p>
         </div>
       </div>
@@ -42,16 +40,16 @@ const lifeStageTabs = [
         <div>
           <h3>Retirement stability</h3>
           <p>
-            As retirement approaches, capital preservation typically matters
-            more than growth. The system shifts weighting toward risk reduction
-            and inflation protection, in line with a shortening time horizon.
+            Closer to retirement, protecting capital usually matters more than
+            chasing growth. The system shifts toward lower risk and inflation
+            protection as your time horizon shortens.
           </p>
         </div>
         <div className="panel-card">
           <h4>Measured outcome</h4>
           <p>
-            A portfolio posture that adjusts automatically as retirement draws
-            closer, without requiring you to manually re-balance each year.
+            A portfolio position that adjusts itself as retirement nears — with
+            no manual rebalancing required.
           </p>
         </div>
       </div>
@@ -64,17 +62,16 @@ const lifeStageTabs = [
         <div>
           <h3>Generational wealth transfer</h3>
           <p>
-            Passing assets to the next generation involves longer time horizons
-            and different tax and liquidity considerations. The platform models
-            these constraints alongside market risk.
+            Handing assets to the next generation involves longer horizons and
+            different tax and liquidity needs. The platform models these
+            constraints alongside market risk.
           </p>
         </div>
         <div className="panel-card">
           <h4>Measured outcome</h4>
           <p>
-            A structure intended to preserve value across a longer planning
-            window, with visibility into how each recommendation supports that
-            goal.
+            A structure built to preserve value over an extended planning
+            window, showing exactly how each recommendation supports that aim.
           </p>
         </div>
       </div>
@@ -86,14 +83,14 @@ export default function Home() {
   return (
     <main>
       <Hero
-        title="Precision risk management for your family's long-term wealth"
-        description="Meritancing analyses market data in real time and adjusts your portfolio's risk posture automatically, so your family's plans remain on course as conditions change."
+        title="Precise risk management for the wealth your family builds over a lifetime"
+        description="Meritancing monitors market data around the clock and automatically fine-tunes your portfolio's risk settings, keeping your family's plans on course as conditions change."
       >
         <Link href="/features" className="btn btn-secondary">
-          Explore the Platform
+          Discover the Platform
         </Link>
         <Link href="/advantages" className="btn btn-secondary">
-          View Data Integrity
+          See Our Data Standards
         </Link>
       </Hero>
 
@@ -111,26 +108,27 @@ export default function Home() {
               />
             </div>
             <div className="split-text">
-              <span className="eyebrow">Why it matters</span>
-              <h2>Markets move quickly. Family plans should not have to.</h2>
+              <span className="eyebrow">The Problem We Solve</span>
+              <h2>Markets can shift overnight. Your family's plan shouldn't have to.</h2>
               <ul className="pain-list">
                 <li>
-                  Global volatility now reaches local savings within days, not
-                  months, as markets stay interconnected around the clock.
+                  With markets connected around the clock, global shocks now hit
+                  local savings within days — not months.
                 </li>
                 <li>
-                  Most families do not have the hours required to track interest
-                  rate decisions, currency movements, and sector rotations.
+                  Few families have the time to follow interest-rate decisions,
+                  currency swings, and sector shifts.
                 </li>
                 <li>
-                  Generic advice rarely accounts for a specific family's
-                  timeline, obligations, and tolerance for loss.
+                  One-size-fits-all advice seldom reflects a family's own
+                  timeline, commitments, and appetite for loss.
                 </li>
               </ul>
               <p>
-                Meritancing was not built to trade on your behalf. It was built
-                to act as a guardian — filtering market noise, flagging genuine
-                risk, and protecting the capital your family depends on.
+                Meritancing was never designed to trade on your behalf. It
+                exists to act as a guardian — cutting through market noise,
+                highlighting genuine risk, and safeguarding the capital your
+                family relies on.
               </p>
             </div>
           </div>
@@ -140,37 +138,36 @@ export default function Home() {
       <section className="section-alt" id="technology">
         <div className="container">
           <SectionHead
-            eyebrow="Core technology"
-            title="An adaptive model built around your family's risk profile"
-            description="The system does not apply one fixed strategy to every household. It learns from declared goals and ongoing data, then recalibrates as circumstances change."
+            eyebrow="The Technology"
+            title="An adaptive model shaped around your family's risk profile"
+            description="The system never applies one fixed strategy to every household. It learns from your stated goals and live data, then recalibrates as circumstances evolve."
           />
           <div className="feature-grid">
             <div className="feature-panel">
               <div className="feature-number">01</div>
               <h3>Predictive modelling</h3>
               <p>
-                The model identifies recurring patterns across large datasets,
-                including historical volatility cycles, sector behaviour, and
-                macroeconomic indicators, to anticipate shifts before they fully
-                unfold.
+                The model spots recurring patterns in vast datasets — past
+                volatility cycles, sector behaviour, and macroeconomic signals —
+                so it can anticipate changes before they fully play out.
               </p>
             </div>
             <div className="feature-panel">
               <div className="feature-number">02</div>
               <h3>Automated risk mitigation</h3>
               <p>
-                Risk exposure is adjusted in line with your family's stated
-                goals and life stage, reducing concentration in positions that
-                no longer match your tolerance for loss.
+                Exposure is adjusted to match your family's goals and stage of
+                life, trimming positions that no longer fit your tolerance for
+                loss.
               </p>
             </div>
             <div className="feature-panel">
               <div className="feature-number">03</div>
               <h3>Real-time optimisation</h3>
               <p>
-                Markets are monitored continuously. When conditions move outside
-                expected ranges, the platform re-evaluates your allocation
-                without waiting for a scheduled review.
+                Markets are tracked continuously. When conditions drift outside
+                expected ranges, the platform reviews your allocation
+                immediately — no waiting for the next scheduled check.
               </p>
             </div>
           </div>
@@ -180,36 +177,35 @@ export default function Home() {
       <section id="methodology">
         <div className="container">
           <SectionHead
-            eyebrow="Methodology"
-            title="A transparent path from raw data to a tailored recommendation"
-            description="Each recommendation can be traced back to the data and reasoning behind it. Nothing is generated without a visible basis."
+            eyebrow="How It Works"
+            title="A clear path from raw data to a personalised recommendation"
+            description="Every recommendation can be traced back to the data and logic behind it. Nothing is produced without a visible foundation."
           />
           <div className="steps">
             <div className="step">
               <div className="step-index">Step 01</div>
               <h3>Data ingestion</h3>
               <p>
-                Global financial indicators, interest rates, currency movements,
-                and economic releases are aggregated from multiple markets on a
-                continuous basis.
+                Financial indicators, interest rates, currency movements, and
+                economic releases from across global markets are gathered
+                continuously.
               </p>
             </div>
             <div className="step">
               <div className="step-index">Step 02</div>
               <h3>Adaptive analysis</h3>
               <p>
-                Learning algorithms process this data against your declared
-                goals and risk tolerance, adjusting their calibration as new
-                information arrives.
+                Learning algorithms weigh this data against your stated goals
+                and risk tolerance, retuning themselves as new information
+                arrives.
               </p>
             </div>
             <div className="step">
               <div className="step-index">Step 03</div>
               <h3>Tailored recommendation</h3>
               <p>
-                You receive a clear, actionable insight with the reasoning
-                behind it, so the decision remains informed rather than
-                automatic.
+                You get a clear, actionable insight complete with its reasoning
+                — so every decision stays informed, never automatic.
               </p>
             </div>
           </div>
@@ -219,9 +215,9 @@ export default function Home() {
       <section className="section-alt" id="use-cases">
         <div className="container">
           <SectionHead
-            eyebrow="Relevance by life stage"
-            title="Built around measurable outcomes, not speculation"
-            description="Every family's priorities shift over time. The platform is designed to recognise which stage you are in and weight its recommendations accordingly."
+            eyebrow="Built for Every Life Stage"
+            title="Designed around real outcomes, not guesswork"
+            description="Every family's priorities change with time. The platform recognises your current stage and adjusts its recommendations to match."
           />
           <Tabs tabs={lifeStageTabs} />
         </div>
@@ -230,34 +226,35 @@ export default function Home() {
       <section id="faq">
         <div className="container">
           <SectionHead
-            eyebrow="Transparency"
-            title="Questions families ask before relying on an automated system"
-            description="We would rather answer these directly than leave them unaddressed."
+            eyebrow="Openness"
+            title="What families ask before trusting an automated system"
+            description="We'd rather answer these openly than leave them unanswered."
           />
           <div className="faq-list">
             <details open>
               <summary>How is our family's financial data kept private?</summary>
               <p>
-                Data used for analysis is encrypted in storage and in transit,
-                and is used solely to generate your own recommendations. It is
-                not sold or shared with third parties for marketing purposes.
+                All data used for analysis is encrypted both in storage and in
+                transit, and it serves one purpose only: generating your
+                recommendations. It is never sold or shared with third parties
+                for marketing.
               </p>
             </details>
             <details>
               <summary>Can the algorithm be biased toward certain outcomes?</summary>
               <p>
-                Any model trained on historical data carries some inherited
-                bias. We address this by reviewing model outputs regularly and
-                by keeping the reasoning behind each recommendation visible, so
-                bias can be identified rather than hidden.
+                Every model trained on past data carries some inherited bias. We
+                counter this by reviewing outputs regularly and keeping the
+                reasoning behind each recommendation visible — so bias can be
+                spotted, not buried.
               </p>
             </details>
             <details>
               <summary>Does the AI make decisions without our involvement?</summary>
               <p>
-                No. Meritancing provides analysis and recommendations; your
-                family retains final control over every decision. The platform
-                is a decision-support tool, not an autonomous trader.
+                No. Meritancing offers analysis and suggestions; final control
+                over every decision stays with your family. The platform
+                supports decisions — it does not trade on its own.
               </p>
             </details>
           </div>
@@ -267,8 +264,8 @@ export default function Home() {
       <section className="section-alt" id="cta-section">
         <div className="container">
           <CtaBanner
-            title="Smarter decisions, simplified."
-            description="See how continuous data analysis translates into recommendations tailored to your family's goals and risk tolerance."
+            title="Smarter decisions, made simple."
+            description="See how continuous data analysis becomes recommendations shaped around your family's goals and risk tolerance."
             cta="Start Analysis"
             href="/contact"
           />

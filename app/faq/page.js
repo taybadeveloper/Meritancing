@@ -15,52 +15,52 @@ const faqs = [
   {
     question: "What does Meritancing actually do?",
     answer:
-      "Meritancing is an analytical platform that organizes financial data and applies structured risk checks to help families and their advisors make clearer, better-informed decisions about wealth management. It is designed to support analysis, not to replace independent judgment.",
+      "Meritancing is an analytical platform that organises financial data and runs structured risk checks, helping families and their advisers make clearer, better-informed wealth decisions. It supports analysis — it doesn't replace independent judgment.",
   },
   {
     question: "Who is Meritancing built for?",
     answer:
-      "Meritancing is intended for families, family offices, and the advisors who work with them and who want a consistent, data-driven way to review holdings, exposure, and risk across accounts.",
+      "Meritancing is built for families, family offices, and the advisers who work with them and want a consistent, data-driven way to review holdings, exposure, and risk across accounts.",
   },
   {
     question: "Is Meritancing a substitute for a financial advisor?",
     answer:
-      "No. Meritancing is an analysis tool. It is meant to complement the work of advisors and decision-makers by surfacing structured insights, not to provide investment advice or replace professional guidance.",
+      "No. Meritancing is an analysis tool. It's meant to complement the work of advisers and decision-makers by surfacing structured insights — not to give investment advice or replace professional guidance.",
   },
   {
     question: "How is my data handled?",
     answer:
-      "Data submitted for analysis is used to generate the reports and insights you request within the platform. For details on how information is collected, stored, and used, please see our Privacy Policy.",
+      "Data submitted for analysis is used to generate the reports and insights you request inside the platform. For details on how information is collected, stored, and used, see our Privacy Policy.",
   },
   {
     question: "What kind of data can be analyzed?",
     answer:
-      "Meritancing is designed to work with common financial data formats such as account summaries, holdings, and transaction records. The exact data types supported depend on your setup and the analysis requested.",
+      "Meritancing works with common financial data formats such as account summaries, holdings, and transaction records. The exact data types supported depend on your setup and the analysis you request.",
   },
   {
     question: "How accurate are the results?",
     answer:
-      "Outputs are only as reliable as the data provided and the assumptions behind each analysis. We recommend treating results as one input among several when making decisions, and reviewing significant conclusions with a qualified professional.",
+      "Outputs are only as reliable as the data supplied and the assumptions behind each analysis. We suggest treating results as one input among several when deciding, and reviewing major conclusions with a qualified professional.",
   },
   {
     question: "Can Meritancing be used by a team, or just one person?",
     answer:
-      "Meritancing can be used by an individual reviewing their own holdings or by a team, such as a family office, coordinating analysis across multiple accounts and stakeholders.",
+      "Meritancing suits an individual reviewing their own holdings as well as a team — such as a family office — coordinating analysis across many accounts and stakeholders.",
   },
   {
     question: "Do I need technical or financial expertise to use it?",
     answer:
-      "The platform is designed to present analysis in a clear, structured format so it can be understood without specialized technical knowledge. Some familiarity with the underlying financial concepts will help you interpret results effectively.",
+      "The platform presents analysis in a clear, structured format that doesn't require specialist technical knowledge. Some familiarity with the underlying financial concepts will help you interpret the results well.",
   },
   {
     question: "How do I get started?",
     answer:
-      "You can begin by starting an analysis directly from the homepage or by contacting us through the Contact page to discuss how Meritancing fits your specific situation.",
+      "You can start an analysis directly from the homepage, or reach out through the Contact page to discuss how Meritancing fits your particular situation.",
   },
   {
     question: "Who can I contact with further questions?",
     answer:
-      "For anything not covered here, please visit our Contact page. We're glad to walk through specifics about features, setup, or anything else related to Meritancing.",
+      "For anything not covered here, visit our Contact page. We're glad to walk through specifics about features, setup, or anything else related to Meritancing.",
   },
 ];
 
@@ -71,16 +71,16 @@ export default function FaqPage() {
         small
         wide
         title="Frequently Asked Questions"
-        description="Answers to common questions about how Meritancing supports data-driven analysis and risk management for family wealth."
+        description="Straight answers to common questions about how Meritancing supports data-driven analysis and risk management for family wealth."
         alt="Meritancing dashboard overview used for family wealth analysis"
       />
 
       <section>
         <div className="container">
           <SectionHead
-            eyebrow="Support"
-            title="Everything you need to know"
-            description="If you don't find what you're looking for here, our team is happy to help — reach out through the contact page."
+            eyebrow="Help & Support"
+            title="Answers to what you want to know"
+            description="If you don't find your answer here, our team is glad to help — just reach out through the contact page."
           />
           <div className="faq-list">
             {faqs.map((faq, index) => (
@@ -96,8 +96,8 @@ export default function FaqPage() {
       <section className="section-alt">
         <div className="container">
           <CtaBanner
-            title="Still have questions?"
-            description="Reach out and we'll help you understand how Meritancing can fit into your family's financial review process."
+            title="Still curious?"
+            description="Reach out and we'll help you see how Meritancing can fit into your family's financial review process."
             cta="Contact Us"
             href="/contact"
           />
