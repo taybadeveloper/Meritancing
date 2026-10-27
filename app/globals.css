@@ -220,7 +220,7 @@ img{max-width:100%; display:block;}
 .hero-content{
   position:relative;
   z-index:2;
-  max-width:640px;
+  max-width:840px;
   padding:var(--space-4) var(--space-5);
   color:#fff;
 }
@@ -232,7 +232,7 @@ img{max-width:100%; display:block;}
 .hero-content p{
   color:rgba(255,255,255,0.88);
   font-size:17px;
-  max-width:520px;
+  max-width:680px;
 }
 .hero .eyebrow{
   color:rgba(255,255,255,0.75);
