@@ -556,6 +556,27 @@ details p{
   background:#fff;
 }
 textarea.form-input{ resize:vertical; }
+.form-check{
+  display:flex;
+  align-items:flex-start;
+  gap:var(--space-2);
+  margin-bottom:var(--space-5);
+}
+.form-check input[type="checkbox"]{
+  width:16px;
+  height:16px;
+  margin-top:3px;
+  accent-color:var(--primary);
+}
+.form-check-label{
+  font-size:14px;
+  color:var(--muted);
+  cursor:pointer;
+}
+.form-check-label a{
+  color:var(--primary);
+  font-weight:600;
+}
 /* International phone input (intl-tel-input) */
 .iti{
   display:block;

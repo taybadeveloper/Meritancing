@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import intlTelInput from "intl-tel-input/intlTelInputWithUtils";
 import "intl-tel-input/dist/css/intlTelInput.css";
 
@@ -135,6 +136,15 @@ export default function ContactForm() {
           required
           ref={phoneRef}
         />
+      </div>
+      <div className="form-field form-check">
+        <input type="checkbox" id="agree" name="agree" required />
+        <label className="form-check-label" htmlFor="agree">
+          <span>
+            I agree to the <Link href="/terms">Terms of Service</Link> and{" "}
+            <Link href="/privacy">Privacy Policy</Link>
+          </span>
+        </label>
       </div>
       <button type="submit" className="btn btn-primary" disabled={loading}>
         {loading ? "Sending..." : "Send Message"}
