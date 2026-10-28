@@ -137,7 +137,7 @@ export default function ContactForm() {
           ref={phoneRef}
         />
       </div>
-      <button type="submit" className="btn btn-primary" disabled={loading}>
+      <button type="submit" className="btn btn-primary btn-block" disabled={loading}>
         {loading ? "Sending..." : "Send Message"}
       </button>
       <div className="form-field form-check">
