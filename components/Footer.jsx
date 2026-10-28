@@ -7,8 +7,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div>
             <div className="footer-brand">
-              <img src="/logo.svg" alt="Meritancing logo" width="28" height="28" />
-              Meritancing
+              <img src="/logo.webp" alt="Meritancing logo" width="688" height="169" />
             </div>
             <p>
               AI-powered data analysis and risk management for family wealth —

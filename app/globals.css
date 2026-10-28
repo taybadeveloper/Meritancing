@@ -118,16 +118,10 @@ img{max-width:100%; display:block;}
 .logo{
   display:flex;
   align-items:center;
-  gap:var(--space-2);
-  font-family:var(--font-head);
-  font-weight:700;
-  font-size:19px;
-  color:var(--primary);
-  letter-spacing:-0.02em;
 }
 .logo img{
-  width:32px;
-  height:32px;
+  height:36px;
+  width:auto;
 }
 .site-nav{
   display:flex;
@@ -649,16 +643,11 @@ footer{
   display:flex;
   align-items:center;
   justify-content:flex-start;
-  gap:var(--space-2);
-  font-family:var(--font-head);
-  font-weight:700;
-  color:var(--primary);
-  font-size:18px;
   margin-bottom:var(--space-3);
 }
 .footer-brand img{
-  width:28px;
-  height:28px;
+  height:34px;
+  width:auto;
 }
 .footer-nav{
   display:flex;
