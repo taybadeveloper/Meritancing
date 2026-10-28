@@ -131,7 +131,7 @@ img{max-width:100%; display:block;}
 .site-nav a{
   color:var(--text);
   font-size:15px;
-  font-weight:500;
+  font-weight:600;
   transition:color 0.2s ease;
 }
 .site-nav a:hover{ color:var(--primary); }
