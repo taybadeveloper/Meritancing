@@ -393,7 +393,7 @@ section[id]{ scroll-margin-top:72px; }
 .feature-number{
   font-family:var(--font-head);
   font-weight:700;
-  font-size:13px;
+  font-size:17px;
   color:var(--accent);
   letter-spacing:0.05em;
   margin-bottom:var(--space-3);
