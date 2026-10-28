@@ -15,7 +15,7 @@ export default function Footer() {
               designed for clarity, not guesswork.
             </p>
             <address>
-              <a href="mailto:support@meritancing.com">support@meritancing.com</a>
+              <a href="mailto:support@meritancingai.com">support@meritancingai.com</a>
             </address>
           </div>
           <div className="footer-nav">

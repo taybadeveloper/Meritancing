@@ -38,8 +38,8 @@ export default function ContactPage() {
               <ul className="pain-list">
                 <li>
                   <strong>Email:</strong>{" "}
-                  <a href="mailto:support@meritancing.com">
-                    support@meritancing.com
+                  <a href="mailto:support@meritancingai.com">
+                    support@meritancingai.com
                   </a>
                 </li>
               </ul>
