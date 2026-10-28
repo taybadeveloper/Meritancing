@@ -296,6 +296,9 @@ section[id]{ scroll-margin-top:72px; }
   gap:var(--space-7);
   align-items:center;
 }
+.split-top{
+  align-items:start;
+}
 .split-media{ min-width:0; }
 .split-media img{
   border-radius:var(--radius-lg);
