@@ -274,7 +274,7 @@ export default function Home() {
               </p>
             </div>
             <div className="cta-form">
-              <h4>Start Your Analysis</h4>
+              <h4>Contact Form</h4>
               <ContactForm />
             </div>
           </div>
