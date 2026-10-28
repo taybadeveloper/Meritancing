@@ -6,6 +6,7 @@ export default function Hero({
   small = false,
   container = true,
   wide = false,
+  className = "",
   image = "/assets/hero.jpg",
   alt = "Meritancing data intelligence platform overview for family wealth planning",
 }) {
@@ -22,7 +23,7 @@ export default function Hero({
   );
 
   return (
-    <section className={`hero${small ? " hero-sm" : ""}`}>
+    <section className={`hero${small ? " hero-sm" : ""}${className ? ` ${className}` : ""}`}>
       <div className="hero-media">
         <img
           src={image}

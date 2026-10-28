@@ -267,6 +267,13 @@ img{max-width:100%; display:block;}
   .hero-content h1{ font-size:44px; }
 }
 
+@media (max-width:767px){
+  .hero-tight .hero-content{
+    padding-left:var(--space-1);
+    padding-right:var(--space-1);
+  }
+}
+
 @media (min-width:1024px){
   .hero{ min-height:400px; }
   .hero-content{ padding:var(--space-5) var(--space-8); }

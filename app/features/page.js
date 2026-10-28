@@ -91,6 +91,7 @@ export default function FeaturesPage() {
   return (
     <main>
       <Hero
+        className="hero-tight"
         title="Tools built for clarity, not guesswork"
         description="Meritancing converts scattered financial data into an organised view of risk, exposure, and allocation, so family wealth decisions are grounded in analysis, not instinct."
         image="/assets/hero-features.jpg"
