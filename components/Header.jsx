@@ -25,6 +25,7 @@ export default function Header() {
     <header className="site-header">
       <div className="container nav-wrap">
         <Link href="/" className="logo">
+          <img src="/logo.svg" alt="Meritancing logo" width="32" height="32" />
           Meritancing
         </Link>
         <button

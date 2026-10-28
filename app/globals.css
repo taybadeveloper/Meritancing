@@ -116,11 +116,18 @@ img{max-width:100%; display:block;}
   position:relative;
 }
 .logo{
+  display:flex;
+  align-items:center;
+  gap:var(--space-2);
   font-family:var(--font-head);
   font-weight:700;
   font-size:19px;
   color:var(--primary);
   letter-spacing:-0.02em;
+}
+.logo img{
+  width:32px;
+  height:32px;
 }
 .site-nav{
   display:flex;
@@ -584,11 +591,19 @@ footer{
   .footer-grid{ grid-template-columns:1.4fr 1fr 1fr; }
 }
 .footer-brand{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:var(--space-2);
   font-family:var(--font-head);
   font-weight:700;
   color:var(--primary);
   font-size:18px;
   margin-bottom:var(--space-3);
+}
+.footer-brand img{
+  width:28px;
+  height:28px;
 }
 .footer-nav{
   display:flex;

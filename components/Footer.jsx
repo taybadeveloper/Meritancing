@@ -6,7 +6,10 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div>
-            <div className="footer-brand">Meritancing</div>
+            <div className="footer-brand">
+              <img src="/logo.svg" alt="Meritancing logo" width="28" height="28" />
+              Meritancing
+            </div>
             <p>
               AI-powered data analysis and risk management for family wealth —
               designed for clarity, not guesswork.
