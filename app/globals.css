@@ -558,6 +558,11 @@ details p{
 }
 
 /* Forms */
+.form-row{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:var(--space-4);
+}
 .form-field{
   margin-bottom:var(--space-4);
 }

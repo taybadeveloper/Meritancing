@@ -86,31 +86,33 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="form-field">
-        <label className="form-label" htmlFor="firstName">
-          First Name
-        </label>
-        <input
-          className="form-input"
-          type="text"
-          id="firstName"
-          name="firstName"
-          placeholder="John"
-          required
-        />
-      </div>
-      <div className="form-field">
-        <label className="form-label" htmlFor="lastName">
-          Last Name
-        </label>
-        <input
-          className="form-input"
-          type="text"
-          id="lastName"
-          name="lastName"
-          placeholder="Doe"
-          required
-        />
+      <div className="form-row">
+        <div className="form-field">
+          <label className="form-label" htmlFor="firstName">
+            First Name
+          </label>
+          <input
+            className="form-input"
+            type="text"
+            id="firstName"
+            name="firstName"
+            placeholder="John"
+            required
+          />
+        </div>
+        <div className="form-field">
+          <label className="form-label" htmlFor="lastName">
+            Last Name
+          </label>
+          <input
+            className="form-input"
+            type="text"
+            id="lastName"
+            name="lastName"
+            placeholder="Doe"
+            required
+          />
+        </div>
       </div>
       <div className="form-field">
         <label className="form-label" htmlFor="email">
