@@ -7,7 +7,7 @@ export default function Hero({
   container = true,
   wide = false,
   className = "",
-  image = "/assets/hero.jpg",
+  image = "/assets/hero.webp",
   alt = "Meritancing data intelligence platform overview for family wealth planning",
 }) {
   const content = (

@@ -85,7 +85,7 @@ export default function Home() {
       <Hero
         title="Precise risk management for the wealth your family builds over a lifetime"
         description="Meritancing monitors market data around the clock and automatically fine-tunes your portfolio's risk settings, keeping your family's plans on course as conditions change."
-        image="/assets/hero-home.jpg"
+        image="/assets/hero-home.webp"
         alt="Family wealth planning discussion around a table"
       >
         <Link href="/features" className="btn btn-secondary btn-white">
