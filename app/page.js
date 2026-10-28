@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Hero from "@/components/Hero";
 import SectionHead from "@/components/SectionHead";
-import CtaBanner from "@/components/CtaBanner";
 import Tabs from "@/components/Tabs";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
   alternates: {
@@ -265,12 +265,18 @@ export default function Home() {
 
       <section className="section-alt" id="cta-section">
         <div className="container">
-          <CtaBanner
-            title="Smarter decisions, made simple."
-            description="See how continuous data analysis becomes recommendations shaped around your family's goals and risk tolerance."
-            cta="Start Analysis"
-            href="/contact"
-          />
+          <div className="cta-banner cta-split">
+            <div className="cta-copy">
+              <h2>Smarter decisions, made simple.</h2>
+              <p>
+                See how continuous data analysis becomes recommendations shaped
+                around your family's goals and risk tolerance.
+              </p>
+            </div>
+            <div className="cta-form">
+              <ContactForm />
+            </div>
+          </div>
         </div>
       </section>
     </main>
