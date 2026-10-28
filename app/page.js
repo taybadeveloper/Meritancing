@@ -101,7 +101,7 @@ export default function Home() {
           <div className="split">
             <div className="split-media">
               <img
-                src="/assets/markets.jpg"
+                src="/assets/markets.webp"
                 alt="Stock market chart showing shifting prices and volatility"
                 width="960"
                 height="720"

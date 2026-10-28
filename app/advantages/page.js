@@ -95,7 +95,7 @@ export default function AdvantagesPage() {
           <div className="split media-right">
             <div className="split-media">
               <img
-                src="/assets/analysis.jpg"
+                src="/assets/analysis.webp"
                 alt="Team analysing data on laptops for evidence-based decisions"
                 width="900"
                 height="700"

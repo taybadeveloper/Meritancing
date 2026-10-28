@@ -108,7 +108,7 @@ export default function FeaturesPage() {
         <div className="container split">
           <div className="split-media">
             <img
-              src="/assets/dashboard.jpg"
+              src="/assets/dashboard.webp"
               alt="Analytics dashboard consolidating data into a single overview"
               width="800"
               height="600"
