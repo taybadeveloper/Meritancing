@@ -18,7 +18,7 @@ export default function ContactForm() {
       initialCountry: "pk",
       separateDialCode: true,
       placeholderNumberPolicy: "AGGRESSIVE",
-      utilsScript: "/assets/utils.js",
+      loadUtils: () => import("intl-tel-input/utils"),
     });
 
     return () => {
