@@ -88,10 +88,10 @@ export default function Home() {
         image="/assets/hero-home.jpg"
         alt="Family wealth planning discussion around a table"
       >
-        <Link href="/features" className="btn btn-secondary">
+        <Link href="/features" className="btn btn-secondary btn-white">
           Discover the Platform
         </Link>
-        <Link href="/advantages" className="btn btn-secondary">
+        <Link href="/advantages" className="btn btn-secondary btn-white">
           See Our Data Standards
         </Link>
       </Hero>

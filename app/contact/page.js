@@ -39,7 +39,7 @@ export default function ContactPage() {
               </p>
             </div>
 
-            <div className="panel-card">
+            <div className="panel-card form-card">
               <h4>Contact Form</h4>
               <ContactForm />
             </div>
