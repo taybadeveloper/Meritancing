@@ -645,7 +645,7 @@ footer{
 .footer-brand{
   display:flex;
   align-items:center;
-  justify-content:center;
+  justify-content:flex-start;
   margin-bottom:var(--space-3);
 }
 .footer-brand img{
@@ -688,6 +688,7 @@ address a:hover{ color:var(--primary); }
 @media (max-width:767px){
   footer{ text-align:center; }
   .footer-grid{ justify-items:center; }
+  .footer-brand{ justify-content:center; }
   .footer-nav{ align-items:center; }
   .footer-bottom{ justify-content:center; }
 }
