@@ -22,10 +22,10 @@ export const metadata = {
     "Meritancing is an AI platform that learns your family's risk tolerance and keeps your portfolio on course automatically as markets change.",
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/favicon.png", type: "image/png", sizes: "192x192" },
+      { url: "/favicon-2026.ico", sizes: "any" },
+      { url: "/favicon-2026.png", type: "image/png", sizes: "192x192" },
     ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    apple: [{ url: "/apple-touch-icon-2026.png", sizes: "180x180" }],
   },
 };
 
