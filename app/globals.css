@@ -653,13 +653,13 @@ textarea.form-input{ resize:vertical; }
 
 /* Legal pages */
 .legal-body{
-  max-width:760px;
+  max-width:900px;
 }
 .legal-body h2{
   font-size:24px;
 }
 .terms-body{
-  max-width:820px;
+  max-width:980px;
 }
 .terms-body h2{
   font-size:26px;
