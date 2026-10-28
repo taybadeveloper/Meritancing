@@ -310,6 +310,8 @@ section[id]{ scroll-margin-top:72px; }
   border-radius:var(--radius-lg);
   box-shadow:var(--shadow-md);
   width:100%;
+  max-width:420px;
+  margin:0 auto;
   height:auto;
 }
 .pain-list{
