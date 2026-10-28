@@ -1,4 +1,5 @@
 import { Inter, Public_Sans } from "next/font/google";
+import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "./globals.css";
@@ -27,6 +28,9 @@ export const metadata = {
     ],
     apple: [{ url: "/apple-touch-icon-2026.png", sizes: "180x180" }],
   },
+  verification: {
+    google: "UmwJCnEYUomVUiH40MTQrParjgrxBZGepNfoW-NH6co",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -36,6 +40,19 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-QJ8XYTSQKL"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-QJ8XYTSQKL');
+          `}
+        </Script>
       </body>
     </html>
   );
