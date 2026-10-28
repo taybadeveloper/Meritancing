@@ -297,6 +297,7 @@ section[id]{ scroll-margin-top:72px; }
 .page-head .section-head{
   margin-left:auto;
   margin-right:auto;
+  margin-bottom:var(--space-4);
 }
 .page-head .legal-body{
   margin-left:auto;
