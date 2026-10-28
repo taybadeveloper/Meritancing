@@ -633,6 +633,11 @@ textarea.form-input{ resize:vertical; }
 .iti__flag-container{
   padding-top:12px;
 }
+/* Serve compressed local flag sprites instead of the library CDN assets */
+:root:root{
+  --iti-path-flags-1x: url(/assets/flags.webp);
+  --iti-path-flags-2x: url(/assets/flags-2x.webp);
+}
 .form-status{
   margin:var(--space-4) 0 0;
   font-size:14.5px;
