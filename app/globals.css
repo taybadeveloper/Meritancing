@@ -447,7 +447,7 @@ section[id]{ scroll-margin-top:72px; }
   margin-bottom:var(--space-3);
 }
 .form-card{
-  border:1px solid var(--primary);
+  border:1px solid rgba(6,95,70,0.35);
 }
 
 /* FAQ */
