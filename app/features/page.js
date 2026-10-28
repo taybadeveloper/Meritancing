@@ -96,10 +96,10 @@ export default function FeaturesPage() {
         image="/assets/hero-features.jpg"
         alt="Analytics dashboard on a laptop showing growth charts"
       >
-        <Link href="#cta-section" className="btn btn-primary">
+        <Link href="#cta-section" className="btn btn-primary btn-white">
           Start Analysis
         </Link>
-        <Link href="#feature-detail" className="btn btn-secondary">
+        <Link href="#feature-detail" className="btn btn-secondary btn-white">
           Explore Features
         </Link>
       </Hero>
