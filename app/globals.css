@@ -630,7 +630,7 @@ textarea.form-input{ resize:vertical; }
 /* Footer */
 footer{
   background:var(--secondary);
-  border-top:1px solid var(--border);
+  border-top:1px solid var(--primary);
   padding:var(--space-6) 0 var(--space-5);
 }
 .footer-grid{
