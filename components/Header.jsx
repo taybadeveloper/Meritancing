@@ -22,7 +22,9 @@ export default function Header() {
   const ctaHref = hasLocalCta ? "#cta-section" : "/#cta-section";
 
   return (
-    <header className="site-header">
+    <header
+      className={`site-header${pathname === "/contact" ? " header-dark-border" : ""}`}
+    >
       <div className="container nav-wrap">
         <Link href="/" className="logo">
           <img src="/logo.webp" alt="Meritancing logo" width="688" height="169" />
