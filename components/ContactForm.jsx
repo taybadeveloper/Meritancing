@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import intlTelInput from "intl-tel-input/intlTelInputWithUtils";
+import intlTelInput from "intl-tel-input";
 import "intl-tel-input/dist/css/intlTelInput.css";
 
 export default function ContactForm() {
@@ -18,6 +18,7 @@ export default function ContactForm() {
       initialCountry: "pk",
       separateDialCode: true,
       placeholderNumberPolicy: "AGGRESSIVE",
+      utilsScript: "/assets/utils.js",
     });
 
     return () => {
