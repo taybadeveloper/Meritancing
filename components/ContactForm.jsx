@@ -137,6 +137,9 @@ export default function ContactForm() {
           ref={phoneRef}
         />
       </div>
+      <button type="submit" className="btn btn-primary" disabled={loading}>
+        {loading ? "Sending..." : "Send Message"}
+      </button>
       <div className="form-field form-check">
         <input type="checkbox" id="agree" name="agree" required />
         <label className="form-check-label" htmlFor="agree">
@@ -146,9 +149,6 @@ export default function ContactForm() {
           </span>
         </label>
       </div>
-      <button type="submit" className="btn btn-primary" disabled={loading}>
-        {loading ? "Sending..." : "Send Message"}
-      </button>
       {status.message && (
         <p className={`form-status ${status.type}`}>{status.message}</p>
       )}
