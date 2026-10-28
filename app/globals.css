@@ -292,6 +292,11 @@ section[id]{ scroll-margin-top:72px; }
 /* Legal pages title block */
 .page-head{
   padding:var(--space-6) 0 var(--space-5);
+  text-align:center;
+}
+.page-head .section-head{
+  margin-left:auto;
+  margin-right:auto;
 }
 .section-head{
   max-width:680px;
