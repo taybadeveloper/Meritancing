@@ -26,7 +26,7 @@ const lifeStageTabs = [
         <div className="panel-card">
           <h4>Measured outcome</h4>
           <p>
-            A funding plan built to stay on schedule — monitored continuously
+            A funding plan built to stay on schedule, monitored continuously
             against the target date instead of waiting for one yearly review.
           </p>
         </div>
@@ -48,7 +48,7 @@ const lifeStageTabs = [
         <div className="panel-card">
           <h4>Measured outcome</h4>
           <p>
-            A portfolio position that adjusts itself as retirement nears — with
+            A portfolio position that adjusts itself as retirement nears, with
             no manual rebalancing required.
           </p>
         </div>
@@ -115,7 +115,7 @@ export default function Home() {
               <ul className="pain-list">
                 <li>
                   With markets connected around the clock, global shocks now hit
-                  local savings within days — not months.
+                  local savings within days, not months.
                 </li>
                 <li>
                   Few families have the time to follow interest-rate decisions,
@@ -128,7 +128,7 @@ export default function Home() {
               </ul>
               <p>
                 Meritancing was never designed to trade on your behalf. It
-                exists to act as a guardian — cutting through market noise,
+                exists to act as a guardian, cutting through market noise,
                 highlighting genuine risk, and safeguarding the capital your
                 family relies on.
               </p>
@@ -149,8 +149,8 @@ export default function Home() {
               <div className="feature-number">01</div>
               <h3>Predictive modelling</h3>
               <p>
-                The model spots recurring patterns in vast datasets — past
-                volatility cycles, sector behaviour, and macroeconomic signals —
+                The model spots recurring patterns in vast datasets, past
+                volatility cycles, sector behaviour, and macroeconomic signals, 
                 so it can anticipate changes before they fully play out.
               </p>
             </div>
@@ -169,7 +169,7 @@ export default function Home() {
               <p>
                 Markets are tracked continuously. When conditions drift outside
                 expected ranges, the platform reviews your allocation
-                immediately — no waiting for the next scheduled check.
+                immediately, no waiting for the next scheduled check.
               </p>
             </div>
           </div>
@@ -207,7 +207,7 @@ export default function Home() {
               <h3>Tailored recommendation</h3>
               <p>
                 You get a clear, actionable insight complete with its reasoning
-                — so every decision stays informed, never automatic.
+              , so every decision stays informed, never automatic.
               </p>
             </div>
           </div>
@@ -247,7 +247,7 @@ export default function Home() {
               <p>
                 Every model trained on past data carries some inherited bias. We
                 counter this by reviewing outputs regularly and keeping the
-                reasoning behind each recommendation visible — so bias can be
+                reasoning behind each recommendation visible, so bias can be
                 spotted, not buried.
               </p>
             </details>
@@ -256,7 +256,7 @@ export default function Home() {
               <p>
                 No. Meritancing offers analysis and suggestions; final control
                 over every decision stays with your family. The platform
-                supports decisions — it does not trade on its own.
+                supports decisions, it does not trade on its own.
               </p>
             </details>
           </div>

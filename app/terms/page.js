@@ -2,7 +2,7 @@ import Link from "next/link";
 import SectionHead from "@/components/SectionHead";
 
 export const metadata = {
-  title: "Meritancing — Terms of Use for the AI Platform",
+  title: "Meritancing, Terms of Use for the AI Platform",
   description:
     "Meritancing is the AI platform whose terms outline your rights, responsibilities, and the conditions governing use of its analytical tools. Review the full terms before using the service.",
   alternates: {

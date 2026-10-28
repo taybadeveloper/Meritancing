@@ -4,9 +4,9 @@ import SectionHead from "@/components/SectionHead";
 import CtaBanner from "@/components/CtaBanner";
 
 export const metadata = {
-  title: "Meritancing — AI Platform Advantages for Smarter Wealth Oversight",
+  title: "Meritancing, AI Platform Advantages for Smarter Wealth Oversight",
   description:
-    "Meritancing brings order, discipline, and clarity to family wealth oversight — consistent, evidence-based portfolio monitoring instead of guesswork.",
+    "Meritancing brings order, discipline, and clarity to family wealth oversight, consistent, evidence-based portfolio monitoring instead of guesswork.",
   alternates: {
     canonical: "/advantages",
   },
@@ -18,7 +18,7 @@ export default function AdvantagesPage() {
       <Hero
         eyebrow="Advantages"
         title="Why families rely on Meritancing for data-driven decisions"
-        description="Meritancing brings order, discipline, and clarity to wealth oversight — replacing guesswork with consistent, evidence-based analysis."
+        description="Meritancing brings order, discipline, and clarity to wealth oversight, replacing guesswork with consistent, evidence-based analysis."
         image="/assets/hero-advantages.jpg"
         alt="Two people shaking hands in a professional setting"
       >
@@ -75,7 +75,7 @@ export default function AdvantagesPage() {
               <h3>Clear Reporting</h3>
               <p>
                 Results come in a readable, structured format designed to
-                support discussion — not replace judgment.
+                support discussion, not replace judgment.
               </p>
             </div>
             <div className="feature-panel">
@@ -222,7 +222,7 @@ export default function AdvantagesPage() {
             <div className="feature-panel">
               <h3>Long-term planning</h3>
               <p>
-                Anchor long-term discussions in consistent, repeatable data —
+                Anchor long-term discussions in consistent, repeatable data, 
                 not one-off snapshots.
               </p>
             </div>

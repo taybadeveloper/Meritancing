@@ -2,7 +2,7 @@ import Link from "next/link";
 import SectionHead from "@/components/SectionHead";
 
 export const metadata = {
-  title: "Meritancing — Privacy Policy for Our AI Platform",
+  title: "Meritancing, Privacy Policy for Our AI Platform",
   description:
     "Discover with Meritancing how your personal data is collected, used, and protected across our AI platform. Read this policy to understand your rights and our data practices.",
   alternates: {
@@ -43,7 +43,7 @@ export default function PrivacyPage() {
             <ul className="pain-list">
               <li>
                 Contact details you share, such as your name, email address, and
-                phone number — for example, when submitting a contact form.
+                phone number, for example, when submitting a contact form.
               </li>
               <li>
                 Account and usage information, including login credentials,
@@ -112,7 +112,7 @@ export default function PrivacyPage() {
             <ul className="pain-list">
               <li>
                 With service providers and vendors who perform functions for us
-                — hosting, analytics, or customer support — under appropriate
+              , hosting, analytics, or customer support, under appropriate
                 confidentiality obligations.
               </li>
               <li>
@@ -154,7 +154,7 @@ export default function PrivacyPage() {
             <h2>10. Your Rights and Choices</h2>
             <p>
               Depending on your jurisdiction, you may have rights regarding your
-              personal information — including the right to access, correct,
+              personal information, including the right to access, correct,
               delete, restrict, or object to certain processing, and the right
               to data portability. To exercise any applicable rights, contact us
               using the details on our Contact page.

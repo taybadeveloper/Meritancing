@@ -10,7 +10,7 @@ export default function Footer() {
               <img src="/logo.webp" alt="Meritancing logo" width="688" height="169" />
             </div>
             <p>
-              AI-powered data analysis and risk management for family wealth —
+              AI-powered data analysis and risk management for family wealth, 
               designed for clarity, not guesswork.
             </p>
             <address>

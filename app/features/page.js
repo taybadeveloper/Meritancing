@@ -5,9 +5,9 @@ import CtaBanner from "@/components/CtaBanner";
 import Tabs from "@/components/Tabs";
 
 export const metadata = {
-  title: "Meritancing — AI Platform for Structured Portfolio Analysis",
+  title: "Meritancing, AI Platform for Structured Portfolio Analysis",
   description:
-    "Meritancing unifies scattered holdings into one risk-aware picture — exposure mapping, scoring, and scenario review in a single disciplined workflow.",
+    "Meritancing unifies scattered holdings into one risk-aware picture, exposure mapping, scoring, and scenario review in a single disciplined workflow.",
   alternates: {
     canonical: "/features",
   },
@@ -23,7 +23,7 @@ const workflowTabs = [
           <p>
             Holdings from multiple sources are aligned into one dataset, then
             mapped by asset class, geography, and counterparty. This stage lays
-            the foundation every later analysis depends on — without it, risk
+            the foundation every later analysis depends on, without it, risk
             figures only tell part of the story.
           </p>
         </div>
@@ -54,7 +54,7 @@ const workflowTabs = [
         <div className="panel-card">
           <h4>What this resolves</h4>
           <p>
-            Decisions made on return expectations alone — with no matching view
+            Decisions made on return expectations alone, with no matching view
             of downside, or of how correlated holdings might move together under
             stress.
           </p>
@@ -92,7 +92,7 @@ export default function FeaturesPage() {
     <main>
       <Hero
         title="Tools built for clarity, not guesswork"
-        description="Meritancing converts scattered financial data into an organised view of risk, exposure, and allocation — so family wealth decisions are grounded in analysis, not instinct."
+        description="Meritancing converts scattered financial data into an organised view of risk, exposure, and allocation, so family wealth decisions are grounded in analysis, not instinct."
         image="/assets/hero-features.jpg"
         alt="Analytics dashboard on a laptop showing growth charts"
       >
@@ -127,7 +127,7 @@ export default function FeaturesPage() {
             </p>
             <ul className="pain-list">
               <li>Scattered holdings reviewed as one connected portfolio</li>
-              <li>Risk signals raised automatically — never buried in reports</li>
+              <li>Risk signals raised automatically, never buried in reports</li>
               <li>A clear paper trail behind every allocation decision</li>
             </ul>
             <Link href="/contact" className="btn btn-secondary btn-sm">
@@ -142,7 +142,7 @@ export default function FeaturesPage() {
           <SectionHead
             eyebrow="Six Core Capabilities"
             title="Six tools, one disciplined process"
-            description="Each capability targets a specific place where family offices and private investors tend to lose sight of their portfolios — from first data intake through to continuous monitoring."
+            description="Each capability targets a specific place where family offices and private investors tend to lose sight of their portfolios, from first data intake through to continuous monitoring."
           />
           <div className="feature-grid">
             <div className="feature-panel">
@@ -150,7 +150,7 @@ export default function FeaturesPage() {
               <h3>Unified Data Intake</h3>
               <p>
                 Bring statements, custodian feeds, and manual records together
-                into one structured dataset — no more hand-reconciling
+                into one structured dataset, no more hand-reconciling
                 spreadsheets.
               </p>
             </div>
@@ -159,7 +159,7 @@ export default function FeaturesPage() {
               <h3>Exposure Mapping</h3>
               <p>
                 See how positions link across asset classes, currencies, and
-                counterparties, so hidden concentration is found — not assumed
+                counterparties, so hidden concentration is found, not assumed
                 away.
               </p>
             </div>
@@ -185,7 +185,7 @@ export default function FeaturesPage() {
               <h3>Ongoing Monitoring</h3>
               <p>
                 Follow drift from the target allocation over time, with
-                deviations flagged — instead of periodic reviews that let
+                deviations flagged, instead of periodic reviews that let
                 gradual change slip by.
               </p>
             </div>
@@ -207,7 +207,7 @@ export default function FeaturesPage() {
           <SectionHead
             eyebrow="How They Work Together"
             title="How the pieces fit together"
-            description="These capabilities aren't separate tools — they run as stages of one workflow, moving from raw data to a documented, risk-aware position."
+            description="These capabilities aren't separate tools, they run as stages of one workflow, moving from raw data to a documented, risk-aware position."
           />
           <Tabs tabs={workflowTabs} />
         </div>

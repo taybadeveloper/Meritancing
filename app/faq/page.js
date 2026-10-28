@@ -3,7 +3,7 @@ import SectionHead from "@/components/SectionHead";
 import CtaBanner from "@/components/CtaBanner";
 
 export const metadata = {
-  title: "Meritancing — Answers About the AI-Powered Platform",
+  title: "Meritancing, Answers About the AI-Powered Platform",
   description:
     "Meritancing explains how its analytical platform supports data-driven risk management and family wealth decisions. Browse common questions or reach out for tailored guidance.",
   alternates: {
@@ -15,7 +15,7 @@ const faqs = [
   {
     question: "What does Meritancing actually do?",
     answer:
-      "Meritancing is an analytical platform that organises financial data and runs structured risk checks, helping families and their advisers make clearer, better-informed wealth decisions. It supports analysis — it doesn't replace independent judgment.",
+      "Meritancing is an analytical platform that organises financial data and runs structured risk checks, helping families and their advisers make clearer, better-informed wealth decisions. It supports analysis, it doesn't replace independent judgment.",
   },
   {
     question: "Who is Meritancing built for?",
@@ -25,7 +25,7 @@ const faqs = [
   {
     question: "Is Meritancing a substitute for a financial advisor?",
     answer:
-      "No. Meritancing is an analysis tool. It's meant to complement the work of advisers and decision-makers by surfacing structured insights — not to give investment advice or replace professional guidance.",
+      "No. Meritancing is an analysis tool. It's meant to complement the work of advisers and decision-makers by surfacing structured insights, not to give investment advice or replace professional guidance.",
   },
   {
     question: "How is my data handled?",
@@ -45,7 +45,7 @@ const faqs = [
   {
     question: "Can Meritancing be used by a team, or just one person?",
     answer:
-      "Meritancing suits an individual reviewing their own holdings as well as a team — such as a family office — coordinating analysis across many accounts and stakeholders.",
+      "Meritancing suits an individual reviewing their own holdings as well as a team, such as a family office, coordinating analysis across many accounts and stakeholders.",
   },
   {
     question: "Do I need technical or financial expertise to use it?",
@@ -81,7 +81,7 @@ export default function FaqPage() {
           <SectionHead
             eyebrow="Help & Support"
             title="Answers to what you want to know"
-            description="If you don't find your answer here, our team is glad to help — just reach out through the contact page."
+            description="If you don't find your answer here, our team is glad to help, just reach out through the contact page."
           />
           <div className="faq-list">
             {faqs.map((faq, index) => (

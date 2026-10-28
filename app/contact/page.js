@@ -2,7 +2,7 @@ import SectionHead from "@/components/SectionHead";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
-  title: "Meritancing — Contact Our AI Platform Team",
+  title: "Meritancing, Contact Our AI Platform Team",
   description:
     "Meritancing offers direct support for questions about data analysis, risk management, and platform use. Reach the team by form or email.",
   alternates: {
