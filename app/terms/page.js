@@ -225,11 +225,6 @@ export default function TermsPage() {
                 {section.body}
               </div>
             ))}
-
-            <p style={{ fontSize: "14px" }}>
-              Last updated: This document is a general template and should be
-              reviewed periodically to remain current with your operations.
-            </p>
           </div>
         </div>
       </section>
