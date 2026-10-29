@@ -19,6 +19,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://meritancingai.com/about</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://meritancingai.com/faq</loc>
     <lastmod>2026-10-28</lastmod>
     <changefreq>weekly</changefreq>

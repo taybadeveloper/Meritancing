@@ -20,6 +20,7 @@ export default function Footer() {
           <div className="footer-nav">
             <Link href="/features">Features</Link>
             <Link href="/advantages">Advantages</Link>
+            <Link href="/about">About</Link>
             <Link href="/faq">FAQ</Link>
             <Link href="/contact">Contact</Link>
           </div>
