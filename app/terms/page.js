@@ -207,18 +207,6 @@ export default function TermsPage() {
         alt="Signing a document representing terms and agreements"
       />
 
-      <section className="page-head">
-        <div className="container">
-          <div className="legal-body">
-            <p>
-              This is a general draft shared for informational purposes and
-              should be reviewed and adapted to reflect your specific business
-              practices and applicable legal requirements before publication.
-            </p>
-          </div>
-        </div>
-      </section>
-
       <section className="section-alt">
         <div className="container">
           <div className="terms-body">
