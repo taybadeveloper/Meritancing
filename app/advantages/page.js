@@ -37,7 +37,7 @@ export default function AdvantagesPage() {
             title="Built for clarity, not guesswork"
             description="Every part of Meritancing is built on one principle: decisions should rest on data, be reviewed consistently, and stay free of emotional bias."
           />
-          <div className="feature-grid">
+          <div className="feature-grid advantages-grid">
             <div className="feature-panel">
               <div className="feature-number">01</div>
               <h3>Consistent Methodology</h3>
