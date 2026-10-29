@@ -3,7 +3,7 @@ import SectionHead from "@/components/SectionHead";
 import CtaBanner from "@/components/CtaBanner";
 
 export const metadata = {
-  title: "Meritancing, About Our AI Platform",
+  title: "Meritancing, About Our Family Wealth AI Platform",
   description:
     "Learn about Meritancing, the AI platform that brings structure, discipline, and clarity to family wealth management.",
   alternates: {
