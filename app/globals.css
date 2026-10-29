@@ -140,6 +140,10 @@ img{max-width:100%; display:block;}
 }
 .site-nav a:hover{ color:var(--primary); }
 
+@media (min-width:768px) and (max-width:1023px){
+  .site-nav{ gap:var(--space-4); }
+}
+
 .nav-toggle-label{
   display:none;
   cursor:pointer;
