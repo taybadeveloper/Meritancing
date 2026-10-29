@@ -189,7 +189,12 @@ const sections = [
     body: (
       <p>
         For questions regarding these Terms, please reach out through the
-        contact options on our <Link href="/contact">Contact</Link> page.
+        contact options on our <Link href="/contact">Contact</Link> page. You
+        can also email us directly at{" "}
+        <a href="mailto:support@meritancingai.com">
+          support@meritancingai.com
+        </a>
+        .
       </p>
     ),
   },

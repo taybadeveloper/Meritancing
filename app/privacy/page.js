@@ -187,7 +187,12 @@ export default function PrivacyPage() {
             <p>
               If you have questions or concerns about this Privacy Policy or our
               data practices, please reach out through the details on our{" "}
-              <Link href="/contact">Contact</Link> page.
+              <Link href="/contact">Contact</Link> page. You can also email us
+              directly at{" "}
+              <a href="mailto:support@meritancingai.com">
+                support@meritancingai.com
+              </a>
+              .
             </p>
           </div>
         </div>
