@@ -22,7 +22,7 @@ export default function AdvantagesPage() {
         image="/assets/hero-advantages.webp"
         alt="Two people shaking hands in a professional setting"
       >
-        <Link href="#cta-section" className="btn btn-primary btn-white">
+        <Link href="/#cta-section" className="btn btn-primary btn-white">
           Start Analysis
         </Link>
         <Link href="/features" className="btn btn-secondary btn-white">
