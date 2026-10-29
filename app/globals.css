@@ -557,6 +557,20 @@ section[id]{ scroll-margin-top:72px; }
   max-width:720px;
   margin:var(--space-6) auto 0;
 }
+/* Contact page centered content */
+.contact-page{
+  text-align:center;
+}
+.contact-page .section-head{
+  margin-left:auto;
+  margin-right:auto;
+}
+.contact-page .pain-list li{
+  padding-left:0;
+}
+.contact-page .pain-list li::before{
+  display:none;
+}
 
 /* FAQ page centered content */
 .faq-centered .section-head{

@@ -13,7 +13,7 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <main>
-      <section>
+      <section className="contact-page">
         <div className="container">
           <SectionHead
             eyebrow="Get in Touch"
