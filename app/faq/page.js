@@ -76,7 +76,7 @@ export default function FaqPage() {
         alt="Person working on a laptop for help and support"
       />
 
-      <section>
+      <section className="faq-centered">
         <div className="container">
           <SectionHead
             eyebrow="Help & Support"
