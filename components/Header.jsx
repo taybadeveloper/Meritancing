@@ -16,12 +16,6 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
 
-  // Pages that carry their own #cta-section anchor scroll to it in place;
-  // every other page points to the homepage's closing call-to-action.
-  const hasLocalCta =
-    pathname === "/" || pathname === "/features" || pathname === "/advantages";
-  const ctaHref = hasLocalCta ? "#cta-section" : "/#cta-section";
-
   return (
     <header
       className={`site-header${pathname === "/contact" ? " header-dark-border" : ""}`}
@@ -47,7 +41,7 @@ export default function Header() {
           ))}
         </nav>
         <Link
-          href={ctaHref}
+          href="/contact"
           className="btn btn-primary btn-sm nav-cta"
           onClick={() => setOpen(false)}
         >
