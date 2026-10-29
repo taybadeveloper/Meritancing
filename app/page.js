@@ -185,7 +185,7 @@ export default function Home() {
           />
           <div className="steps">
             <div className="step">
-              <div className="step-index">Step 01</div>
+              <div className="step-badge">01</div>
               <h3>Data ingestion</h3>
               <p>
                 Financial indicators, interest rates, currency movements, and
@@ -194,7 +194,7 @@ export default function Home() {
               </p>
             </div>
             <div className="step">
-              <div className="step-index">Step 02</div>
+              <div className="step-badge">02</div>
               <h3>Adaptive analysis</h3>
               <p>
                 Learning algorithms weigh this data against your stated goals
@@ -203,7 +203,7 @@ export default function Home() {
               </p>
             </div>
             <div className="step">
-              <div className="step-index">Step 03</div>
+              <div className="step-badge">03</div>
               <h3>Tailored recommendation</h3>
               <p>
                 You get a clear, actionable insight complete with its reasoning

@@ -437,6 +437,27 @@ section[id]{ scroll-margin-top:72px; }
 .step h3{ font-size:17px; margin-bottom:var(--space-2);}
 .step p{ font-size:14.5px; margin-bottom:0; }
 
+/* Numbered step badges (How It Works, Getting Started) */
+.step:has(.step-badge){
+  border-left:none;
+  padding:var(--space-2) 0;
+}
+.step-badge{
+  width:46px;
+  height:46px;
+  border-radius:50%;
+  background:linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  color:#fff;
+  font-family:var(--font-head);
+  font-weight:700;
+  font-size:17px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:var(--space-3);
+  box-shadow:0 4px 10px rgba(6,95,70,0.25);
+}
+
 /* Tabs */
 .tabs{
   display:block;

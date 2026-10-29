@@ -223,7 +223,7 @@ export default function FeaturesPage() {
           />
           <div className="steps">
             <div className="step">
-              <div className="step-index">Step 01</div>
+              <div className="step-badge">01</div>
               <h3>Connect Holdings</h3>
               <p>
                 Import statements and records into the unified data layer,
@@ -232,7 +232,7 @@ export default function FeaturesPage() {
               </p>
             </div>
             <div className="step">
-              <div className="step-index">Step 02</div>
+              <div className="step-badge">02</div>
               <h3>Review Exposure & Risk</h3>
               <p>
                 Examine the mapped exposures and risk scores, then run scenarios
@@ -240,7 +240,7 @@ export default function FeaturesPage() {
               </p>
             </div>
             <div className="step">
-              <div className="step-index">Step 03</div>
+              <div className="step-badge">03</div>
               <h3>Monitor & Document</h3>
               <p>
                 Set monitoring thresholds and let the system flag drift, while
