@@ -62,6 +62,11 @@ export default function ContactForm() {
       const result = await res.json();
 
       if (res.ok && result.status === "success") {
+        if (result.redirectUrl) {
+          // Affiliate flow: send the visitor to the broker signup page
+          window.location.href = result.redirectUrl;
+          return;
+        }
         setStatus({
           type: "success",
           message:

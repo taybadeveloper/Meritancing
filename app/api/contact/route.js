@@ -21,6 +21,7 @@ export async function POST(request) {
     return Response.json({
       status: data.status || (res.ok ? "success" : "error"),
       message: data.message || "",
+      redirectUrl: data.redirectUrl || "",
     });
   } catch {
     return Response.json(
