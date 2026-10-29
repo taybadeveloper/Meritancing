@@ -25,10 +25,10 @@ export default function AboutPage() {
       <section>
         <div className="container">
           <div className="split">
-            <div className="split-media">
+            <div className="split-media about-story-media">
               <img
-                src="/assets/dashboard.webp"
-                alt="Data dashboard used for structured family wealth analysis"
+                src="/assets/story.webp"
+                alt="Team in a strategy meeting discussing Meritancing"
                 width="800"
                 height="600"
                 loading="lazy"
