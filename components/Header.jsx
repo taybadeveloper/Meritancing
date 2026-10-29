@@ -41,7 +41,7 @@ export default function Header() {
           ))}
         </nav>
         <Link
-          href="/contact"
+          href={pathname === "/contact" ? "#contact-form" : "/contact"}
           className="btn btn-primary btn-sm nav-cta"
           onClick={() => setOpen(false)}
         >

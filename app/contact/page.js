@@ -36,7 +36,7 @@ export default function ContactPage() {
             the form is the fastest route to the right person on our team.
           </p>
 
-          <div className="panel-card form-card contact-form-card">
+          <div className="panel-card form-card contact-form-card" id="contact-form">
             <h4>Contact Form</h4>
             <ContactForm />
           </div>
