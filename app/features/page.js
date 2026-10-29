@@ -221,7 +221,7 @@ export default function FeaturesPage() {
             title="From scattered records to a documented position"
             description="Implementing Meritancing follows the same sequence regardless of how the portfolio is currently organised."
           />
-          <div className="steps">
+          <div className="steps getting-started">
             <div className="step">
               <div className="step-badge">01</div>
               <h3>Connect Holdings</h3>
