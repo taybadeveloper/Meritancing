@@ -183,7 +183,7 @@ export default function Home() {
             title="A clear path from raw data to a personalised recommendation"
             description="Every recommendation can be traced back to the data and logic behind it. Nothing is produced without a visible foundation."
           />
-          <div className="steps">
+          <div className="steps how-it-works">
             <div className="step">
               <div className="step-badge">01</div>
               <h3>Data ingestion</h3>
