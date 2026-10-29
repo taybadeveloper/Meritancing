@@ -553,6 +553,10 @@ section[id]{ scroll-margin-top:72px; }
 .form-card{
   border:1px solid rgba(6,95,70,0.35);
 }
+.contact-form-card{
+  max-width:720px;
+  margin:var(--space-6) auto 0;
+}
 
 /* FAQ page centered content */
 .faq-centered .section-head{
