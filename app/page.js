@@ -3,12 +3,31 @@ import Hero from "@/components/Hero";
 import SectionHead from "@/components/SectionHead";
 import Tabs from "@/components/Tabs";
 import ContactForm from "@/components/ContactForm";
+import FaqList from "@/components/FaqList";
 
 export const metadata = {
   alternates: {
     canonical: "/",
   },
 };
+
+const homeFaqs = [
+  {
+    question: "How is our family's financial data kept private?",
+    answer:
+      "All data used for analysis is encrypted both in storage and in transit, and it serves one purpose only: generating your recommendations. It is never sold or shared with third parties for marketing.",
+  },
+  {
+    question: "Can the algorithm be biased toward certain outcomes?",
+    answer:
+      "Every model trained on past data carries some inherited bias. We counter this by reviewing outputs regularly and keeping the reasoning behind each recommendation visible, so bias can be spotted, not buried.",
+  },
+  {
+    question: "Does the AI make decisions without our involvement?",
+    answer:
+      "No. Meritancing offers analysis and suggestions; final control over every decision stays with your family. The platform supports decisions, it does not trade on its own.",
+  },
+];
 
 const lifeStageTabs = [
   {
@@ -232,34 +251,7 @@ export default function Home() {
             title="What families ask before trusting an automated system"
             description="We'd rather answer these openly than leave them unanswered."
           />
-          <div className="faq-list">
-            <details open>
-              <summary>How is our family's financial data kept private?</summary>
-              <p>
-                All data used for analysis is encrypted both in storage and in
-                transit, and it serves one purpose only: generating your
-                recommendations. It is never sold or shared with third parties
-                for marketing.
-              </p>
-            </details>
-            <details>
-              <summary>Can the algorithm be biased toward certain outcomes?</summary>
-              <p>
-                Every model trained on past data carries some inherited bias. We
-                counter this by reviewing outputs regularly and keeping the
-                reasoning behind each recommendation visible, so bias can be
-                spotted, not buried.
-              </p>
-            </details>
-            <details>
-              <summary>Does the AI make decisions without our involvement?</summary>
-              <p>
-                No. Meritancing offers analysis and suggestions; final control
-                over every decision stays with your family. The platform
-                supports decisions, it does not trade on its own.
-              </p>
-            </details>
-          </div>
+          <FaqList faqs={homeFaqs} />
         </div>
       </section>
 
