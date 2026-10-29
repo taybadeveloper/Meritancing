@@ -51,6 +51,7 @@ export default function ContactForm() {
       lastName: fd.get("lastName"),
       email: fd.get("email"),
       phone,
+      offerName: "meritancingai_site",
     };
 
     try {
