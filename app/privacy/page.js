@@ -19,7 +19,7 @@ export default function PrivacyPage() {
         title="Privacy Policy"
         description="This Privacy Policy describes how Meritancing gathers, uses, and protects information when you visit our website or use our services. It is a general template shared for informational purposes and should be reviewed and tailored to your actual data practices and applicable law before publication."
         image="/assets/hero-privacy.webp"
-        alt="Gavel representing legal documentation and privacy"
+        alt="Trading chart representing financial data analysis"
       />
 
       <section className="section-alt">
