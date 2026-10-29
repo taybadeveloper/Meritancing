@@ -191,15 +191,6 @@ export default function PrivacyPage() {
               data practices, please reach out through the details on our{" "}
               <Link href="/contact">Contact</Link> page.
             </p>
-
-            <p style={{ marginTop: "var(--space-6)", fontSize: "14px" }}>
-              <em>
-                This document is a general template and does not constitute
-                legal advice. Meritancing recommends obtaining professional
-                legal review before relying on this policy for compliance
-                purposes.
-              </em>
-            </p>
           </div>
         </div>
       </section>
