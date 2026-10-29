@@ -560,6 +560,7 @@ section[id]{ scroll-margin-top:72px; }
 /* Contact page centered content */
 .contact-page{
   text-align:center;
+  background:#F0FDF4;
 }
 .contact-page .section-head{
   margin-left:auto;
