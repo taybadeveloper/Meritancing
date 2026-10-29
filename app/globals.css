@@ -185,7 +185,7 @@ img{max-width:100%; display:block;}
     top:100%;
     left:0;
     right:0;
-    background:#fff;
+    background:#F0FDF4;
     border-bottom:1px solid var(--border);
     padding:var(--space-3) var(--space-5) var(--space-5);
     gap:var(--space-1);
