@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import SectionHead from "@/components/SectionHead";
 import CtaBanner from "@/components/CtaBanner";
+import FaqList from "@/components/FaqList";
 
 export const metadata = {
   title: "Meritancing, Answers About the AI-Powered Platform",
@@ -83,14 +84,7 @@ export default function FaqPage() {
             title="Answers to what you want to know"
             description="If you don't find your answer here, our team is glad to help, just reach out through the contact page."
           />
-          <div className="faq-list">
-            {faqs.map((faq, index) => (
-              <details key={faq.question} open={index === 0}>
-                <summary>{faq.question}</summary>
-                <p>{faq.answer}</p>
-              </details>
-            ))}
-          </div>
+          <FaqList faqs={faqs} />
         </div>
       </section>
 
