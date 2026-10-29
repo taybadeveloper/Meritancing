@@ -1,5 +1,5 @@
 import Link from "next/link";
-import SectionHead from "@/components/SectionHead";
+import Hero from "@/components/Hero";
 
 export const metadata = {
   title: "Meritancing, Terms of Use for the AI Platform",
@@ -198,14 +198,17 @@ const sections = [
 export default function TermsPage() {
   return (
     <main>
+      <Hero
+        small
+        eyebrow="Legal"
+        title="Terms and Conditions"
+        description='These Terms and Conditions ("Terms") govern your access to and use of the Meritancing website and services. By accessing or using Meritancing, you agree to be bound by these Terms. If you do not agree, please do not use our services.'
+        image="/assets/hero-terms.webp"
+        alt="Signing a document representing terms and agreements"
+      />
+
       <section className="page-head">
         <div className="container">
-          <SectionHead
-            eyebrow="Legal"
-            title="Terms and Conditions"
-            as="h1"
-            description='These Terms and Conditions ("Terms") govern your access to and use of the Meritancing website and services. By accessing or using Meritancing, you agree to be bound by these Terms. If you do not agree, please do not use our services.'
-          />
           <div className="legal-body">
             <p>
               This is a general draft shared for informational purposes and

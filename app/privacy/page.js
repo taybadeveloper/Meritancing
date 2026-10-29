@@ -1,5 +1,5 @@
 import Link from "next/link";
-import SectionHead from "@/components/SectionHead";
+import Hero from "@/components/Hero";
 
 export const metadata = {
   title: "Meritancing, Privacy Policy for Our AI Platform",
@@ -13,16 +13,14 @@ export const metadata = {
 export default function PrivacyPage() {
   return (
     <main>
-      <section className="page-head">
-        <div className="container">
-          <SectionHead
-            eyebrow="Legal"
-            title="Privacy Policy"
-            as="h1"
-            description="This Privacy Policy describes how Meritancing gathers, uses, and protects information when you visit our website or use our services. It is a general template shared for informational purposes and should be reviewed and tailored to your actual data practices and applicable law before publication."
-          />
-        </div>
-      </section>
+      <Hero
+        small
+        eyebrow="Legal"
+        title="Privacy Policy"
+        description="This Privacy Policy describes how Meritancing gathers, uses, and protects information when you visit our website or use our services. It is a general template shared for informational purposes and should be reviewed and tailored to your actual data practices and applicable law before publication."
+        image="/assets/hero-privacy.webp"
+        alt="Gavel representing legal documentation and privacy"
+      />
 
       <section className="section-alt">
         <div className="container">
